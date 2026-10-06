@@ -1,6 +1,3 @@
-CREATE DATABASE IF NOT EXISTS speedfast_db;
-USE speedfast_db;
-
 CREATE TABLE IF NOT EXISTS repartidores (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL
