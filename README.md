@@ -10,6 +10,6 @@ Aplicación Java Swing con CRUD completo sobre MySQL usando JDBC (PreparedStatem
 
 ## Cómo ejecutar (IntelliJ IDEA)
 1. Ejecuta `sql/speedfast_db.sql` en MySQL Workbench (crea `speedfast_db` y las tablas).
-2. Agrega el conector MySQL: File > Project Structure > Libraries > + > From Maven > `com.mysql:mysql-connector-j:8.4.0`.
+2. Agrega el conector MySQL: File > Project Structure > Libraries > + > From Java > `com.mysql:mysql-connector-j:8.4.0`.
 3. Ajusta usuario/clave en `dao/ConexionDB.java` 
 4. Ejecuta `Main`.
